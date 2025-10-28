@@ -22,7 +22,8 @@ Ce projet démontre l'implémentation d'une architecture événementielle (Event
 - Consommer et traiter des événements en temps réel
 - Utiliser Kafka Streams pour l'agrégation et le windowing
 - Visualiser les données analytiques en temps réel
-  ![Analytics en temps réel]([images/analytics-chart.png](https://github.com/FatihaELHABTI/activite1_event_driven_architecture_kafka/blob/main/images/kafka5.png)
+  ![Analytics en temps réel](https://raw.githubusercontent.com/FatihaELHABTI/activite1_event_driven_architecture_kafka/main/images/kafka5.png)
+
 
 ---
 
@@ -429,13 +430,15 @@ Lancer les conteneurs:
 ```bash
 docker-compose up -d
 ```
-![Analytics en temps réel]([images/analytics-chart.png](https://github.com/FatihaELHABTI/activite1_event_driven_architecture_kafka/blob/main/images/kafka1.png))
+![Analytics en temps réel](https://raw.githubusercontent.com/FatihaELHABTI/activite1_event_driven_architecture_kafka/main/images/kafka1.png)
+
 
 ### 2️⃣ Vérification des conteneurs
 ```bash
 docker ps
 ```
-![Analytics en temps réel]([images/analytics-chart.png](https://github.com/FatihaELHABTI/activite1_event_driven_architecture_kafka/blob/main/images/kafka2.png))
+![Analytics en temps réel](https://raw.githubusercontent.com/FatihaELHABTI/activite1_event_driven_architecture_kafka/main/images/kafka2.png)
+
 Vous devriez voir:
 - `broker` (Kafka) sur le port 9092
 - `zookeeper` sur le port 2181
@@ -459,7 +462,8 @@ docker exec -it broker kafka-console-producer \
 ```
 Taper des messages: `Hello`, `A`, `B`, `C`, `Red`
 
-![Analytics en temps réel]([images/analytics-chart.png](https://github.com/FatihaELHABTI/activite1_event_driven_architecture_kafka/blob/main/images/kafka4.png))
+![Analytics en temps réel](https://raw.githubusercontent.com/FatihaELHABTI/activite1_event_driven_architecture_kafka/main/images/kafka4.png)
+
 
 **Consumer**:
 ```bash
@@ -468,7 +472,8 @@ docker exec -it broker kafka-console-consumer \
   --topic R2 \
   --from-beginning
 ```
-![Analytics en temps réel]([images/analytics-chart.png](https://github.com/FatihaELHABTI/activite1_event_driven_architecture_kafka/blob/main/images/kafka3.png))
+![Analytics en temps réel](https://raw.githubusercontent.com/FatihaELHABTI/activite1_event_driven_architecture_kafka/main/images/kafka3.png)
+
 
 Les messages apparaissent dans l'ordre de réception.
 
@@ -486,7 +491,8 @@ curl "http://localhost:8080/publish?name=P2&topic=T3"
    - **Courbe rouge**: Comptage des événements P2
 3. Les données sont mises à jour chaque seconde via SSE
 
-![Analytics en temps réel]([images/analytics-chart.png](https://github.com/FatihaELHABTI/activite1_event_driven_architecture_kafka/blob/main/images/kafka6.png))
+![Analytics en temps réel](https://raw.githubusercontent.com/FatihaELHABTI/activite1_event_driven_architecture_kafka/main/images/kafka6.png)
+
 
 **Interprétation du graphique**:
 - L'axe Y représente le nombre d'événements dans la fenêtre de 5 secondes
