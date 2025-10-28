@@ -437,7 +437,7 @@ docker-compose up -d
 ```bash
 docker ps
 ```
-![Analytics en temps réel](https://raw.githubusercontent.com/FatihaELHABTI/activite1_event_driven_architecture_kafka/main/images/kafka2.png)
+![Analytics en temps réel](https://raw.githubusercontent.com/FatihaELHABTI/activite1_event_driven_architecture_kafka/main/images/Kafka2.png)
 
 Vous devriez voir:
 - `broker` (Kafka) sur le port 9092
