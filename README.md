@@ -22,7 +22,7 @@ Ce projet démontre l'implémentation d'une architecture événementielle (Event
 - Consommer et traiter des événements en temps réel
 - Utiliser Kafka Streams pour l'agrégation et le windowing
 - Visualiser les données analytiques en temps réel
-  ![Analytics en temps réel]([images/analytics-chart.png](https://github.com/FatihaELHABTI/activite1_event_driven_architecture_kafka/blob/main/images/kafka5.png))
+  ![Analytics en temps réel]([images/analytics-chart.png](https://github.com/FatihaELHABTI/activite1_event_driven_architecture_kafka/blob/main/images/kafka5.png)
 
 ---
 
